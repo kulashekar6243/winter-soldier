@@ -115,7 +115,10 @@ st.markdown(original_title3, unsafe_allow_html=True)
 col1, col2 = st.beta_columns(2)
 
 with col1:
-    city_name = st.text_input("Enter a city name")
+	
+    original_title7 = '<p style="font-family:Libre Baskerville, serif; color:Yellow; font-size: 20px;">Enter city name</p>'
+    st.markdown(original_title7, unsafe_allow_html=True)
+    city_name = st.text_input("")
     #show_hist = st.checkbox('Show me history')
     
 with col2: 
