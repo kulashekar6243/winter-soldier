@@ -185,13 +185,12 @@ if uploaded_file:
 # run the inference
   prediction = model.predict(data)
   print(prediction)
-  if prediction.any()==0:
-      
-    st.header("Visible")
-  else:
-      st.header("Nope not visible")
-      
-
+  for je in prediction:
+      if je[0]>je[1]:
+          st.header("not visible")
+      else:
+          st.header("visible")
+    
 
 
 
