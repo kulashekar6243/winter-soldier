@@ -151,7 +151,9 @@ if city_name:
             st.table(df)
 if city_name:
     st.map(pd.DataFrame({'lat' : [res[5]] , 'lon' : [res[4]]},columns=['lat','lon']))
-st.header('Road Visibility test against fog')   
+original_title6 = '<p style="font-family:Libre Baskerville, serif; color:#44546A; font-size: 40px;"><b>Road Visibility test against fog</b></p>'
+st.markdown(original_title6, unsafe_allow_html=True)
+
 uploaded_file = st.file_uploader("upload here")
 from keras.models import load_model
 from PIL import Image, ImageOps
