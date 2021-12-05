@@ -105,8 +105,9 @@ def get_hist_data(lat,lon,start):
     return data , temp
 
 # Let's write the Application
-
-st.header('Winter Weather Report')   
+original_title3 = '<p style="font-family:Libre Baskerville, serif; color:#44546A; font-size: 40px;"><b>Winter Weather Report</b></p>'
+st.markdown(original_title3, unsafe_allow_html=True)
+  
 
 
 
@@ -187,10 +188,13 @@ if uploaded_file:
   print(prediction)
   for je in prediction:
       if je[0]>je[1]:
-          st.header("not visible")
+          original_title4 = '<p style="font-family:Libre Baskerville, serif; color:#44546A; font-size: 40px;"><b>Not visible</b></p>'
+          st.markdown(original_title4, unsafe_allow_html=True)
+  
+
       else:
-          st.header("visible")
-    
+           original_title5= '<p style="font-family:Libre Baskerville, serif; color:#44546A; font-size: 40px;"><b>visible</b></p>'
+           st.markdown(original_title5, unsafe_allow_html=True)
 
 
 
