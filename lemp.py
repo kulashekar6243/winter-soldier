@@ -20,11 +20,11 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-original_title = '<p style="font-family:Courier; color:Blue; font-size: 40px;"><b>winter weather live forecasting and foggy roads visibility prediction </b></p>'
+original_title = '<p style="font-family:Libre Baskerville, serif; color:#44546A; font-size: 40px;"><b>WINTER WEATHER FORECASTING AND FOGGY ROAD VISIBILITY PREDICTION </b></p>'
 st.markdown(original_title, unsafe_allow_html=True)
-original_title1 = '<p style="font-family:Courier; color:Green; font-size: 20px;"><strong>Vehicles should be driven with extreme care during winter. Due to fog, visibility becomes low and so should the speed of vehicles, be it two-wheelers, four wheelers or transport vehicles. Get vehicles regularly serviced to avoid breakdown in fog. One should also be aware of and equipped with safety measures required at the time of breakdown of vehicles in fog, especially at night. Commuters should keep to pedestrian path while walking in fog and check on both sides before crossing the road.</strong></p>'
+original_title1 = '<p style="font-family:Roboto, sans-serif; color:#800080; font-size: 20px;"><strong>Vehicles should be driven with extreme care during winter. Due to fog, visibility becomes low and so should the speed of vehicles, be it two-wheelers, four wheelers or transport vehicles. Get vehicles regularly serviced to avoid breakdown in fog. One should also be aware of and equipped with safety measures required at the time of breakdown of vehicles in fog, especially at night. Commuters should keep to pedestrian path while walking in fog and check on both sides before crossing the road.</strong></p>'
 st.markdown(original_title1, unsafe_allow_html=True)
-original_title2 = '<p style="font-family:Courier; color:Black; font-size: 20px;"><strong>Driving in winter becomes tricky and difficult owing to dense fog, especially during the night time. There are some major precautionary measures that ought to be adopted while driving. The first and foremost is drive slowly to maintain control over the vehicle to prevent accidents and loss in the case of applying sudden brakes. Stray cattle menace is also a major issue in the city. Thus, one has to be extra careful while driving on roads at night.</strong></p>'
+original_title2 = '<p style="font-family:Roboto, sans-serif; color:Black; font-size: 20px;"><strong>Driving in winter becomes tricky and difficult owing to dense fog, especially during the night time. There are some major precautionary measures that ought to be adopted while driving. The first and foremost is drive slowly to maintain control over the vehicle to prevent accidents and loss in the case of applying sudden brakes. Stray cattle menace is also a major issue in the city. Thus, one has to be extra careful while driving on roads at night.</strong></p>'
 st.markdown(original_title2, unsafe_allow_html=True)
 
 import requests
